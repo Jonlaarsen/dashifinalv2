@@ -15,6 +15,7 @@ const Navbar = () => {
   useEffect(() => {
   window.addEventListener("scroll", changeNavbarColor);
   }, [colorChange])
+  
   return (
     <div className='flex fixed justify-between px-7 items-center top-0 left-0 h-[4rem] w-screen '>
       <div>
