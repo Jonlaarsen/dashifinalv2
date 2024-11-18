@@ -33,7 +33,7 @@ export const About = () => {
                 <br/>
                 designed for you and your friends to savor together.
                 <br/>
-                We can't wait to welcome you—see you soon!
+                We cannot wait to welcome you—see you soon!
            </p>
         </div>
         
@@ -44,11 +44,11 @@ export const About = () => {
           </button>
           <h1 className='text-4xl font-bold'>Talk to our amazing staff!</h1>
           <p className='text-xs px-6 md:text-xl font-semibold text-center '> 
-            At DASHI, we take pride in delivering warm, attentive, and personalized customer service.
+            At DASHI, we take pride in delivering warm and attentive, and personalized customer service.
             <br/>
             Our goal is to make every visit a delightful experience, where your satisfaction comes first.
             <br/>
-            We're here to ensure you feel right at home—see you soon!
+            We are here to ensure you feel right at home—see you soon!
            </p>
         </div>
         <div className="flex justify-center invisible md:visible items-center text-3xl  bg-center bg-[url('https://lh3.googleusercontent.com/p/AF1QipO_JZ7xk_OgdA1O3vF7VzjGDUyDlB5rA15EzVmB=s1360-w1360-h1020')] bg-cover  ">
