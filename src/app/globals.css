@@ -1,8 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Halant:wght@300;400;500;600;700&display=swap');
 
-:root {
+body{
+  background: #ede9d6;
+  /* background-image: url('https://wallpapers.com/images/hd/aesthetic-beige-japanese-waves-4c3j18jx545mocy0.jpg'); */
+  color: #E43D12;
+  font-family: "DM Sans", sans-serif;
+}
+/* CSS */
+.button {
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 3px solid #E43D12;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:after {
+  content: "";
+  background-color: #ffba4c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+
+.title{
+  text-shadow: 2px 2px 1px  white ;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,4 +61,41 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: 1.2rem; /* size of the corner */
+  --color: #E43D12;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #e43c1200;
+  outline-offset: .6em;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+  opacity: 60%;
 }
