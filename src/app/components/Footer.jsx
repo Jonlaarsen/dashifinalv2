@@ -10,7 +10,7 @@ const Footer = () => {
         <p className='font-semibold'><a href='https://www.instagram.com/dashi_malmo/'>instagram</a></p>
       </div>
       <div className='w-[5rem] md:w-[6rem]'>
-        <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-6/278880818_116670677676018_2384494559516480119_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=eVCeKTVA1eEQ7kNvgGjz5h9&_nc_zt=23&_nc_ht=scontent-ssn1-1.xx&_nc_gid=Azg-sRF8UABYePa9mifUm5r&oh=00_AYDpqNJGROpVAlLEmEeVBFKySia3BASTSe1lyV7js9ZJqA&oe=6740C12A"
+        <img src="/dashilogo.jpg"
          alt="dashi-logo" className='w-[10rem] rounded-[50%]' />
       </div>
       <div className='w-[5rem] text-[10px] md:text-[15px] gap-2 flex flex-col  md:w-[10rem]'>
